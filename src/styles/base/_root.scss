@@ -1,0 +1,11 @@
+:root {
+  --fs-body: 0.9375rem;
+
+  @media (min-width: $breakpoint-tablet) {
+    --fs-body: 1rem;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    --fs-body: 1.125rem;
+  }
+}
