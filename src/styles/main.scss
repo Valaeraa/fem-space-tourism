@@ -6,3 +6,8 @@
 @import "base/typography";
 
 @import "utilities/utilities";
+@import "utilities/functions";
+
+.test {
+  color: dark-navy(1);
+}
